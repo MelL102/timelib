@@ -7,14 +7,23 @@ Malte Tewes
 #ifndef TIME_H_INCLUDED
 #define TIME_H_INCLUDED
 
+struct date{                        //erzeugt den struct date
+    int year;
+    int month;
+    int day;
+};
+
+
+// funktionsheader
 int is_leapyear(int year);
 
-int day_of_the_year(int day, int month, int year);
+int day_of_the_year(struct date);
 
-int get_days_for_month(int month, int year);
+int get_days_for_month(struct date);
 
-int exists_date(int day, int month , int year);
+int exists_date(struct date);
 
-void input_date(int *pointerYear, int *pointerMonth, int *pointerDay);
+struct date input_date();
+//
 
 #endif // TIME_H_INCLUDED

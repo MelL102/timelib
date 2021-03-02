@@ -1,12 +1,13 @@
 # depslib dependency file v1.0
-1613382947 source:c:\users\malte\timelib\main.c
+1614679746 source:c:\users\malte\timelib\main.c
 	<stdio.h>
 	<stdlib.h>
 	"time.h"
 
-1613383002 c:\users\malte\timelib\time.h
+1614679890 c:\users\malte\timelib\time.h
 
-1613382988 source:c:\users\malte\timelib\time.c
+1614680225 source:c:\users\malte\timelib\time.c
 	<stdio.h>
 	<stdlib.h>
+	"time.h"
 
